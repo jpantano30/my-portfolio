@@ -2,6 +2,8 @@ p {
   text-align: center;
   font-family: 'Playfair Display', serif;
   color: rgb(108, 52, 131);
+  margin: 20px auto;
+  max-width: 600px;
 }
 
 .game-container {

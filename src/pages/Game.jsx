@@ -21,7 +21,7 @@ function Game() {
   return (
     <div>
       <h1>Drag and Drop Cake Decorating Game</h1>
-      <p>Instructions: Choose a topping from the side bar and drag it onto the cake.</p>
+      <p>Instructions: Choose a topping from the side bar and drag it onto the cake. If you would like to remove a topping, just click on it.</p>
       <DndProvider backend={HTML5Backend}>
         <div className="game-container" >
           <div className="drag-items">
