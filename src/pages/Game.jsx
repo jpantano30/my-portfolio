@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
-import DraggableItem from '../components/game/DraggableItem'
-import DropZone from '../components/game/DropZone'
+import DraggableItem from '../components/DraggableItem'
+import DropZone from '../components/DropZone'
 import baseCake from '../assets/cake.png'
 import '../styles/game.css'
 

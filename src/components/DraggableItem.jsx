@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useDrag, DragPreviewImage } from 'react-dnd'
-import getToppingImage from './GetToppingImage'
-import '/Users/jenapantano/BU Masters/cs601fall24/Project/my-portfolio/src/styles/game.css'
+import getToppingImage from '../styles/game.css'
 
 function DraggableItem({ id, type }) {
   const [imageUrl, setImageUrl] = useState('')
