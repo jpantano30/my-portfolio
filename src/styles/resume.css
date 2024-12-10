@@ -1,0 +1,28 @@
+.resume-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+.resume-title {
+  margin: 20px 0;
+  color: rgb(194, 24, 91); 
+  font-family: 'Playfair Display', serif;
+}
+
+.resume-pdf {
+  width: 90%;
+  height: 85%;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+@media (min-width: 768px) {
+  .resume-pdf {
+    width: 80%;
+    height: 90%;
+  }
+}

@@ -1,0 +1,61 @@
+p {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: rgb(108, 52, 131);
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.drag-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.cakeImg {
+  width: 300px;
+  height: auto;
+  border: 2px solid rgb(194, 24, 91);
+}
+
+.toppingImg {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.drag-item {
+  cursor: grab;
+  transition: transform 0.2s ease-in-out;
+}
+
+.drag-item:active {
+  cursor: grabbing;
+}
+
+.drop-zone {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.draggable-image {
+  width: 50px;
+  height: 50px;
+  cursor: move; 
+}
+
+.dragging {
+  opacity: 0.5; 
+}

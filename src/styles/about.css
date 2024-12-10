@@ -1,0 +1,35 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  color: rgb(108, 52, 131); 
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-container h1 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(194, 24, 91);
+}
+
+.section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 800px; 
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(194, 24, 91);
+  margin-bottom: 15px;
+}
+
+.section p {
+  line-height: 1.6;
+  color: rgb(74, 35, 90); 
+}

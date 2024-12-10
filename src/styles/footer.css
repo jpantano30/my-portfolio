@@ -1,0 +1,22 @@
+.main-footer {
+  background-color: rgb(253, 238, 244); 
+  color: rgb(108, 52, 131); 
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  border-top: 3px solid rgb(194, 24, 91); 
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
+}
+
+.main-footer a {
+  color: rgb(194, 24, 91);
+  text-decoration: none;
+  padding: 0 10px;
+  transition: color 0.3s;
+  font-family: 'Playfair Display', serif;
+}
+
+.main-footer a:hover {
+  color: rgb(108, 52, 131);
+  font-weight: bold;
+}
