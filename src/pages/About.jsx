@@ -6,7 +6,7 @@ const About = () => {
       <div className="section personal">
         <h2>Personal Background</h2>
         <p>
-          I like to think of myself as a dog and fitness enthusiast. I started CrossFit 5 years ago and now coach to share my passion with others. You can find my dog, Paisley, and me at our local CrossFit gym most mornings.
+          I like to think of myself as a dog and fitness enthusiast. I started CrossFit 5 years ago and now coach to share my passion with others. You can find my dogs, Paisley and Tallulah, and me at our local CrossFit gym most mornings.
           <br /><br />
           My journey into nutrition started in high school after attending a horticultural camp in Hawaii. Since then, I've been transforming my favorite dishes into nutritious meals. My interest in cooking and baking was inspired by my grandfather, a professional chef who once cooked for the Queen of England.
           <br /><br />
